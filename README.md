@@ -112,6 +112,6 @@ Repeat until user chooses "0" to exit program
 
 ## 📂 GitHub Repository Link  
 Paste your GitHub repository link here:  
-`https://github.com/username/project-proposal`  
+`https://github.com/kjcoral2031-cmyk/Project_Proposal_ComputerScience2`  
 
 ---
