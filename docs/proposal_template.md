@@ -82,7 +82,31 @@ Repeat until user chooses "0" to exit program
 
 
 ### Flowchart
-
+                    [ Start ]
+                        |
+                        v
+           [ Load students.json ]
+                        |
+                        v
+         +---> [ Display Menu ] <----+
+         |              |            |
+         |      [ Get User Choice ]  |
+         |              |            |
+         |    +---------+---------+  |
+         |    v         v         v  |
+         | [View /   [Add /    [Summary|
+         |  Filter]  Edit / Del] & Chart]|
+         |    |         |         |  |
+         |    |         v         |  |
+         |    |   [Validate &     |  |
+         |    |    Save JSON]     |  |
+         |    |         |         |  |
+         +----+---------+---------+--+
+                        |
+                 (Choice == "0")
+                        v
+                     [ End ]
+                     
 
 ---
 
